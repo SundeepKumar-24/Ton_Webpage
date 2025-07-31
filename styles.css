@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+
+
+.navBar {
+    background: #001721;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navItems {
+
+    margin-left: auto;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.navImg {
+    height: 70px;
+}
+
+.IpadImag {
+
+    height: 25rem;
+}
+
+.main-content h1,
+.main-content h6,
+.main-content p {
+    font-family: Roboto;
+}
+
+.cardsDivHead {
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.cardsList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    margin: 10px;
+    outline: none;
+    border: none;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 25px;
+    border-radius: 10px;
+    align-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.cardBtn {
+    background-color: white;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: 200;
+    font-family: Roboto;
+}
+
+.cardHead {
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-P {
+    color: white;
+    font-size: 12px;
+}
+
+.subBtnDiv p,
+.subBtnDiv h4 {
+    padding: 0px;
+    gap: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.duration {
+    font-weight: 800;
+}
+
+.card1 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.007)), url('Image\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.007)), url('Image\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.007)), url('Image\ 3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card4 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.007)), url('Image\ 4.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+
+}
+
+.card4::after {
+    content: '>';
+    top: 50px;
+}
+
+.geeStartedBtn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 10px;
+    margin: 10px;
+}
+
+.geeStartedBtn button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.thirdContentDiv {
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.thirdContentDiv h3 {
+    font-size: 35px;
+}
+
+.thirdContentDiv p {
+    font-size: 16px;
+}
+
+.thirdContentDiv h3,
+.thirdContentDiv p {
+    font-family: Roboto;
+}
+
+.fourthDIv {
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px;
+    background-image: url('Add\ Poster.jpg');
+    height: 400px;
+    display: flex;
+    width: 94vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fouthContentDiv {
+    font-family: Roboto;
+    width: 350px;
+    background-color: rgba(212, 212, 212, 0.194);
+    backdrop-filter: blur(10px);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(34, 34, 34);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    font-size: 50px;
+}
+
+.fouthContentFirstPart p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fouthContentSecondPart p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.finalDIv {
+  position: relative;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 100px);
+  margin-top: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.videoDiv {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.back-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.textVideoDiv {
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+  padding: 20px;
+  max-width: 90%;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  line-height: 1.1;
+}
+.textVideoDiv p{
+    font-family: Roboto;
+    letter-spacing: 2px;
+}
+
+.textVideoDiv h6 {
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0;
+}
